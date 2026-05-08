@@ -1,5 +1,6 @@
 from excepciones.errores import ReservaError
 from utils.logger import registrar_log
+# Comentario agregado para documentacion
 
 # Clase que representa una reserva del sistema
 

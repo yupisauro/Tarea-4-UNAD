@@ -1,7 +1,5 @@
 from abc import ABC, abstractmethod
-
-# Clase para los servicios del sistema
-
+# Comentario para documentacion
 class Servicio(ABC):
     def __init__(self, nombre, tarifa):
         self.nombre = nombre
