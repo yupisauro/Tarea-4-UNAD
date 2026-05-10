@@ -6,3 +6,5 @@ def registrar_log(mensaje):
     with open("logs/logs.txt", "a") as f:
         #Esta línea escribe dentro del archivo la fecha y hora actual obtenida con datetime.now(), seguida del mensaje recibido por la función. El \n agrega un salto de línea para que cada registro quede organizado en líneas separadas dentro del archivo de texto.
         f.write(f"{datetime.now()} - {mensaje}\n") 
+
+        #Cambio por Adrian Monroy
